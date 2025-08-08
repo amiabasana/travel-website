@@ -6,19 +6,122 @@
     <!-- ======== FAVICON ======== -->
      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
+    <!-- ======== GOOGLE FONTS(Dancing scripts & Montserrat) ======== -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <!-- ======== REMIXICONS ======== -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
 
     <!-- ======== SWIPER CSS ======== -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+     <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
 
     <!-- ======== CUSTOM CSS ======== -->
      <link rel="stylesheet" href="./assets/css/style.css">
     <title>Travel Website</title>
 </head>
 <body>
+    <!-- ==================== HEADER ==================== -->
+     <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="./assets/images/travel.svg" alt="logo">
+                <span>GoTravel</span>
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="#home" class="nav__link">Home</a></li>
+                    <li><a href="#destination" class="nav__link">Destination</a></li>
+                    <li><a href="#testimonials" class="nav__link">Testimonials</a></li>
+                    <li><a href="#gallery" class="nav__link">Gallery</a></li>
+                    <li><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+                <!-- Close Button -->
+                 <div class="nav__close" id="nav-close">
+                    <i class="ri-close-large-line"></i>
+                 </div>
+            </div>
+            <div class="nav__buttons">
+                <i class="ri-moon-fill nav__theme" id="theme-button"></i>
+
+                <!-- Toggle button -->
+                 <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-apps-2-fill"></i>
+                 </div>
+            </div>
+        </nav>
+     </header>
+
+    <!-- ==================== MAIN ==================== -->
+     <main class="main">
+        <!-- ================== HOME ================== -->
+         <section class="home section" id="home">
+            <img src="./assets/images/home_bg.jpg" alt="image" class="home__bg">
+            <div class="home__blur"></div>
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">Travel <br> Around <br> The World</h1>
+                    <p class="home__description">
+                        Discover the best budget travel tips for Europe, from affordable hostels to free walking tours.
+                    </p>
+                    <a href="#destination" class="button button__opa-30">Explore The World
+                        <i class="ri-arrow-right-long-fill"></i>
+                    </a>
+                </div>
+
+                <div class="home__swiper swiper">
+                    <div class="swiper-wrapper">
+                        <article class="home__article swiper-slide">
+                            <img src="./assets/images/img1.jpg" alt="image" class="home__img">
+                        </article>
+
+                        <article class="home__article swiper-slide">
+                            <img src="./assets/images/img2.jpg" alt="image" class="home__img">
+                        </article>
+
+                        <article class="home__article swiper-slide">
+                            <img src="./assets/images/img3.jpg" alt="image" class="home__img">
+                        </article>
+
+                        <article class="home__article swiper-slide">
+                            <img src="./assets/images/img4.jpg" alt="image" class="home__img">
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Navigation Buttons -->
+                <div class="swiper-button-prev"><i class="ri-arrow-left-long-line"></i></div>
+                <div class="swiper-button-next"><i class="ri-arrow-right-long-fill"></i></div>
+            </div>
+         </section>
+
+        <!-- ================== DESTINATION ================== -->
+         <section class="destination section" id="destination">
+            
+         </section>
+
+        <!-- ================== TESTIMONIAL ================== -->
+         <section class="testimonial section" id="testimonial">
+            
+         </section>
+
+        <!-- ================== GALLERY ================== -->
+         <section class="gallery section" id="gallery">
+            
+         </section>
+
+        <!-- ================== CONTACT ================== -->
+         <section class="contact section" id="contact">
+            
+         </section>
+     </main>
+
+    <!-- ==================== FOOTER ==================== -->
+     <footer>
+
+     </footer>
+
     <!-- ======== SWIPER JS ======== -->
-     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     <script src="./assets/js/swiper-bundle.min.js"></script>
     <!-- ======== CUSTOM JS ======== -->
      <script src="./assets/js/main.js"></script>
     
